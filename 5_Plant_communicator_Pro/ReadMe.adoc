@@ -1,4 +1,4 @@
-= Project: {Project}
+= Project: Arduino Smart Plant Communicator
 
 This experiment is an implementation of how to protect your plants and make sure they survive as well as using Arduino "magic". I created it for educational purposes, in order to improve my personal skills and perception over IoT applications. 
 
