@@ -1,23 +1,25 @@
 = Project: {Project}
 
-Describe your project
+This experiment is an implementation of how to protect your plants and make sure they survive as well as using Arduino "magic". I created it for educational purposes, in order to improve my personal skills and perception over IoT applications. 
+
+By monitoring moisture, temperature and light, you can make sure that your plants are happy. It can send emails and graphs on a daily basis and notify you of its needs.
 
 == Step 1: Installation
-Please describe the steps to install this project.
 
-For example:
+In this project we need three libraries to install. First one is WiFi101 to connect to internet and scan the networks, Second is RTCZero to manage time triggered events (e.g. send email at 15.30) and third one is ThingSpeak, which will be mentioned in details in another section.
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+First of all, we need to make the right configurations in the IDE in order to communicate with the MKR1000 board. Most of the libraries needed, are installed by default. 
+
+In order to use Zapier's API we first need to upload the certificates on MKR1000. This applies to most of online services and APIs!
+Upload the Firmware Updater example from the WiFi101 library and add hooks.zapier.com to the domains.
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+MKR-1000 arduino board, one TMP36 sensor, one phototransistor, DIY moisture sensor. Two resistors, one of 1KOhm and one of 1MOhm resistance.
 
 == Step 3: Load the code
 
-Upload the code contained in this sketch on to your board
+Code in C for sketch is uploaded in folder.
 
 === Folder structure
 
@@ -30,19 +32,19 @@ Upload the code contained in this sketch on to your board
 ....
 
 === License
-This project is released under a {License} License.
 
-=== Contributing
-To contribute to this project please contact tommasltrz <>
+This project is public for everyone in this [link](https://create.arduino.cc/projecthub/arduino/plant-communicator-7ea06f?_gl=1*1a91921*_ga*NzYyNTg4Njg5LjE2MzU3ODUwMzE.*_ga_SELSHHP7SG*MTYzNTkyOTY4NS41LjEuMTYzNTkyOTY5MS4w)
 
 === BOM
-Add the bill of the materials you need for this project.
+All included in Arduino IoT Bundle that I won in PreSFHMMY5 competition with PIoTis34 team (2nd place) .
 
 |===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+| ID |      Type      | Quantity
+| Bd | MKR 1000       | 1 
+| R1 | 1 k Resistor   | 1     
+| R2 | 1 M Resistor   | 1
+| P1 | Phototrans.    | 1        
+| T1 | TMP36          | 1        
 |===
 
 
