@@ -1,0 +1,9 @@
+{
+  "cpu": {
+    "fqbn": "arduino:samd:mkr1000",
+    "name": "Arduino/Genuino MKR1000",
+    "type": "serial"
+  },
+  "secrets": [],
+  "included_libs": []
+}
