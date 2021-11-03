@@ -33,7 +33,7 @@ Code in C for sketch is uploaded in folder.
 
 === License
 
-This project is public for everyone in this [link](https://create.arduino.cc/projecthub/arduino/plant-communicator-7ea06f?_gl=1*1a91921*_ga*NzYyNTg4Njg5LjE2MzU3ODUwMzE.*_ga_SELSHHP7SG*MTYzNTkyOTY4NS41LjEuMTYzNTkyOTY5MS4w) .
+This project is public for everyone in this [link](https://create.arduino.cc/projecthub/arduino/plant-communicator-7ea06f?_gl=1*1a91921*_ga*NzYyNTg4Njg5LjE2MzU3ODUwMzE.*_ga_SELSHHP7SG*MTYzNTkyOTY4NS41LjEuMTYzNTkyOTY5MS4w.md) .
 
 === BOM
 All included in Arduino IoT Bundle that I won in PreSFHMMY5 competition with PIoTis34 team (2nd place) .
